@@ -6,5 +6,55 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="image-holder">
+      <div class="odin-logo">
+        <img src="./img/odin-lined.png" alt="Odin Logo" />
+        <h1>ODIN</h1>
+      </div>
+      <p>Photo by <a>Halie West</a> on <a>Unsplash</a></p>
+    </div>
+    <div class="content">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <em>now</em> to get started.
+      </p>
+      <p>You <em>know</em> you want to.</p>
+      <form action="example.com" method="post" id="sform">
+        <div>
+          <legend>Let's do this!</legend>
+          <div class="input-holder">
+            <div>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" />
+            </div>
+            <div>
+              <label for="second-name">SECOND NAME</label>
+              <input type="text" id="second-name" />
+            </div>
+            <div>
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" />
+            </div>
+            <div>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="text" id="phone-number" />
+            </div>
+            <div>
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" required />
+            </div>
+            <div>
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" required />
+            </div>
+          </div>
+        </div>
+        <button type="submit">Create Account</button>
+        <p id="login">Already have an account? <a>Log In</a></p>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
